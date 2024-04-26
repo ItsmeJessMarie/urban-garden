@@ -1,0 +1,10 @@
+.container-fluid {
+  margin: 0 auto;
+  padding: 0 75px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: right;
+  text-align: right;
+}
