@@ -16,6 +16,10 @@
       crossorigin="anonymous"
     />
     <script
+      src="https://kit.fontawesome.com/c66723084c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
@@ -72,17 +76,8 @@
     </header>
     <main>
       <div class="main-container">
-        <section>
+        <section class="intro">
           <div class="grid grid-2-columns">
-            <div>
-              <img
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/312/original/chicagourbanfarm.jpg?1714673744"
-                class="img-fluid"
-                alt="Chicago Urban Farm"
-                title="Chicago Urban Farm Image"
-              />
-              <p>An Urban Farm in Chicago</p>
-            </div>
             <div class="summary-container">
               <h2>Why Urban Gardens?</h2>
               <h3>Sustainable future for city living</h3>
@@ -92,8 +87,8 @@
                 food in urban areas. There are many different types of urban
                 agriculture present in many cities today, including aquaculture,
                 beekeeping, animal husbandry, and horticulture.
-                <br />
-                <br />
+              </p>
+              <p class="list-item">
                 There are numerous benefits to urban agriculture and/or gardens
                 and the way it transforms the urban environment:
               </p>
@@ -133,151 +128,163 @@
                 activity.
               </p>
             </div>
+            <div>
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/312/original/chicagourbanfarm.jpg?1714673744"
+                class="img-fluid shadow-sm"
+                alt="Chicago Urban Farm"
+                title="Chicago Urban Farm Image"
+              />
+              <p class="description">An Urban Farm in Chicago</p>
+            </div>
           </div>
         </section>
-        <section>
+        <section class="content">
           <a name="garden types"></a>
-          <h2>Types of Gardens</h2>
-          <h3>Numerous Types of Urban Gardens and Farms</h3>
-          <div class="summary-container">
-            <div class="grid grid-2-columns">
-              <div>
-                <h4>Gardens</h4>
-                <p>
-                  Many communities make excellent use of small urban plots
-                  either at ground level or on rooftops, and make accessible to
-                  the public to cultivate plants for food, recreation and
-                  education. Community gardens give people the opportunity to
-                  learn about horticulture and thus get a better understanding
-                  of the process of producing food and other plants. In return,
-                  these gardens provide food to people in need.
-                </p>
+          <div class="gardens-farms">
+            <h2>Garden Types</h2>
+            <h3>Urban Gardens and Farms</h3>
+            <div class="summary-container">
+              <div class="grid grid-2-columns">
+                <div>
+                  <h4>Gardens</h4>
+                  <p>
+                    Many communities make excellent use of small urban plots
+                    either at ground level or on rooftops, and make accessible
+                    to the public to cultivate plants for food, recreation and
+                    education. Community gardens give people the opportunity to
+                    learn about horticulture and thus get a better understanding
+                    of the process of producing food and other plants. In
+                    return, these gardens provide food to people in need.
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/348/original/detroitcommunitygarden.jpg?1714678411"
+                    class="img-fluid shadow-sm"
+                    alt="Detroit Urban Garden"
+                    title="Detroit Urban Garden Image"
+                  />
+                  <p class="description">Detroit Community Garden</p>
+                </div>
               </div>
-              <div>
-                <img
-                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/348/original/detroitcommunitygarden.jpg?1714678411"
-                  class="img-fluid"
-                  alt="Detroit Urban Garden"
-                  title="Detroit Urban Garden Image"
-                />
-                <p>Detroit Community Garden</p>
+              <div class="grid grid-2-columns">
+                <div>
+                  <img
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/355/original/rooftopfarm.jpg?1714679623"
+                    class="img-fluid shadow-sm"
+                    alt="Urban Rooftop Farm"
+                    title="Urban Rooftop Farm Image"
+                  />
+                  <p class="description">An Urban Rooftop Farm</p>
+                </div>
+                <div>
+                  <h4>Farms</h4>
+                  <p>
+                    City/Urban farms are agricultural plots in urban areas, that
+                    have people working with animals and plants to produce food.
+                    These farms are usually community run and create awareness
+                    surrounding agriculture and farming to people who live in
+                    urbanized areas. Urban farming is a wide encompassing term
+                    as farming can be done in an individual's backyard or the
+                    rooftop of an apartment building. What's most important as
+                    that these farms are sources of food security for many
+                    communities around the world. While some urban farms have
+                    paid employees, most are done on a volunteer basis and other
+                    city farms operate as partnerships or co-ops within the
+                    city.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="grid grid-2-columns mb-4">
-              <div>
-                <img
-                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/355/original/rooftopfarm.jpg?1714679623"
-                  class="img-fluid"
-                  alt="Urban Rooftop Farm"
-                  title="Urban Rooftop Farm Image"
-                />
-                <p>An Urban Rooftop Farm</p>
+              <div class="grid grid-2-columns">
+                <div>
+                  <h4>Aquaponics</h4>
+                  <p>
+                    Aquaponics is a closed-loop farming technique that combines
+                    both aquaculture and hydroponics to create a self-sustaining
+                    ecosystem. This ecosystem includes a symbiotic relationship
+                    using fish waste to naturally fertilize plants while the
+                    plants filter and purify the water for the fish. This system
+                    thus minimizes water usage while also eliminating the need
+                    for chemical fertilizers, making this system eco-friendly
+                    and an efficient method for food production.
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/438/original/aquaponicsfarm.jpeg?1714756863"
+                    class="img-fluid shadow-sm"
+                    alt="Aquaponics Farm"
+                    title="Aquaponics Farm Image"
+                  />
+                  <p class="description">An Aquaponics Farm</p>
+                </div>
               </div>
-              <div>
-                <h4>Farms</h4>
-                <p>
-                  City/Urban farms are agricultural plots in urban areas, that
-                  have people working with animals and plants to produce food.
-                  These farms are usually community run and create awareness
-                  surrounding agriculture and farming to people who live in
-                  urbanized areas. Urban farming is a wide encompassing term as
-                  farming can be done in an individual's backyard or the rooftop
-                  of an apartment building. What's most important as that these
-                  farms are sources of food security for many communities around
-                  the world. While some urban farms have paid employees, most
-                  are done on a volunteer basis and other city farms operate as
-                  partnerships or co-ops within the city.
-                </p>
+              <div class="grid grid-2-columns">
+                <div>
+                  <img
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/362/original/verticalfarming.jpg?1714681536"
+                    class="img-fluid shadow-sm"
+                    alt="Urban High Rise Gardens Concept"
+                    title="Urban High Rise Garden Concept Image"
+                  />
+                  <p class="description">Urban High Rise Gardens Concept</p>
+                </div>
+                <div>
+                  <h4>Vertical Farming</h4>
+                  <p>
+                    Vertical farming has emerged as a solution for sustainable
+                    urban agriculture. This type of system allows for crops to
+                    be cultivated in vertically stacked layers or inclined
+                    surfaces and even in controlled indoor environments. This
+                    helps maximize space utilization and can even facilitate
+                    year-round cultivation which is ideal for densely populated
+                    areas that have limited land space. Balcony spaces in large
+                    cities have proved useful for individual farming uses,
+                    whereas larger farms tend to employ hydroponics or even
+                    aeroponics which can allow plants to grow without soil,
+                    using nutrient-rich water or air as sources instead.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="grid grid-2-columns mb-4">
-              <div>
-                <h4>Aquaponics</h4>
-                <p>
-                  Aquaponics is a closed-loop farming technique that combines
-                  both aquaculture and hydroponics to create a self-sustaining
-                  ecosystem. This ecosystem includes a symbiotic relationship
-                  using fish waste to naturally fertilize plants while the
-                  plants filter and purify the water for the fish. This system
-                  thus minimizes water usage while also eliminating the need for
-                  chemical fertilizers, making this system eco-friendly and an
-                  efficient method for food production.
-                </p>
-              </div>
-              <div>
-                <img
-                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/356/original/aquaponicsfarm.jpeg?1714679675"
-                  class="img-fluid"
-                  alt="Aquaponics Farm"
-                  title="Aquaponics Farm Image"
-                />
-                <p>An Aquaponics Farm</p>
-              </div>
-            </div>
-            <div class="grid grid-2-columns mb-4">
-              <div>
-                <img
-                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/362/original/verticalfarming.jpg?1714681536"
-                  class="img-fluid"
-                  alt="Urban High Rise Gardens Concept"
-                  title="Urban High Rise Garden Concept Image"
-                />
-                <p>Urban High Rise Gardens Concept</p>
-              </div>
-              <div>
-                <h4>Vertical Farming</h4>
-                <p>
-                  Vertical farming has emerged as a solution for sustainable
-                  urban agriculture. This type of system allows for crops to be
-                  cultivated in vertically stacked layers or inclined surfaces
-                  and even in controlled indoor environments. This helps
-                  maximize space utilization and can even facilitate year-round
-                  cultivation which is ideal for densely populated areas that
-                  have limited land space. Balcony spaces in large cities have
-                  proved useful for individual farming uses, whereas larger
-                  farms tend to employ hydroponics or even aeroponics which can
-                  allow plants to grow without soil, using nutrient-rich water
-                  or air as sources instead.
-                </p>
-              </div>
-            </div>
-            <div class="grid grid-2-columns mb-4">
-              <div>
-                <h4>Indoor Farms</h4>
-                <p>
-                  Indoor farming is a method that cultivates plants indoors,
-                  free from the issues that present with traditional agriculture
-                  like weather fluctuations and limited land size. The indoor
-                  farming concept emerged as a solution to the ongoing
-                  challenges faced by conventional agriculture such as
-                  unpredictable weather patterns and urbanization taking up
-                  valuable arable land. Indoor farming offers an excellent
-                  sustainable alternative. These types of farms tend to use
-                  advanced techniques like hydroponics, aeroponics or aquaponics
-                  to cultivate plants. Having plants in a climate controlled
-                  system proves useful in maintaining the perfect condition for
-                  crops which in return provides superior agricultural products
-                  that meet safety requirements.
-                </p>
-              </div>
-              <div>
-                <img
-                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/361/original/indoorfarm.jpg?1714681060"
-                  class="img-fluid"
-                  alt="Indoor Farm"
-                  title="Indoor Farm Image"
-                />
-                <p>Indoor Farm</p>
+              <div class="grid grid-2-columns">
+                <div>
+                  <h4>Indoor Farms</h4>
+                  <p>
+                    Indoor farming is a method that cultivates plants indoors,
+                    free from the issues that present with traditional
+                    agriculture like weather fluctuations and limited land size.
+                    The indoor farming concept emerged as a solution to the
+                    ongoing challenges faced by conventional agriculture such as
+                    unpredictable weather patterns and urbanization taking up
+                    valuable arable land. Indoor farming offers an excellent
+                    sustainable alternative. These types of farms tend to use
+                    advanced techniques like hydroponics, aeroponics or
+                    aquaponics to cultivate plants. Having plants in a climate
+                    controlled system proves useful in maintaining the perfect
+                    condition for crops which in return provides superior
+                    agricultural products that meet safety requirements.
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/361/original/indoorfarm.jpg?1714681060"
+                    class="img-fluid shadow-sm"
+                    alt="Indoor Farm"
+                    title="Indoor Farm Image"
+                  />
+                  <p class="description">Indoor Farm</p>
+                </div>
               </div>
             </div>
           </div>
         </section>
-        <section>
+        <section class="market">
           <a name="markets"></a>
-          <div class="summary-container">
-            <h2>Markets and Co-ops</h2>
-            <h3>Urban Centers for Harvested Crops</h3>
-            <div class="grid grid-2-columns">
+          <div class="grid grid-2-columns">
+            <div class="summary-container">
+              <h2>Markets and Co-ops</h2>
+              <h3>Urban Centers for Harvested Crops</h3>
               <div>
                 <p>
                   Worldwide you can find countless farmers' markets that provide
@@ -316,12 +323,74 @@
                 </p>
               </div>
             </div>
+            <div>
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/432/original/urbangreenscoop.jpg?1714750375"
+                class="img-fluid shadow-sm"
+                alt="Urban Greens Co-op"
+                title="Urban Greens Co-op Market Image"
+              />
+              <p class="description">Urban Greens Co-op Market</p>
+            </div>
           </div>
         </section>
       </div>
     </main>
     <footer>
-      <div class="container-footer"></div>
+      <div class="container-footer">
+        <div class="learn-more text-center">
+          <p class="mb-2">
+            Information credited to Urban Agriculture on Wikipedia
+          </p>
+          <a
+            href="https://en.wikipedia.org/wiki/Urban_agriculture"
+            target="_blank"
+            class="link"
+            alt="wiki-link"
+            title="Wikipedia Link"
+            ><button class="learn-btn">Learn More</button></a
+          >
+        </div>
+        <div class="footer-links text-center mt-4">
+          <p class="m-0">
+            This SheCodes Urban Garden Challenge was coded with 💚 by
+            <a
+              href="https://www.shecodes.io/graduates/77936-jessica-boll"
+              class="link profile-link"
+              target="_blank"
+              alt="profile-link"
+              title="SheCodes Profile"
+              >Jessica Boll</a
+            >
+            and is
+            <a
+              href="https://github.com/ItsmeJessMarie/urban-garden"
+              class="link profile-link"
+              target="_blank"
+              alt="github-link"
+              title="GitHub Link"
+              >open-sourced on GitHub</a
+            >
+            and
+            <a
+              href="#"
+              class="link profile-link"
+              target="_blank"
+              alt="netlify-link"
+              title="Netlify Link"
+              >hosted on Netlify</a
+            >
+          </p>
+        </div>
+        <button
+          onclick="topFunction()"
+          id="upBtn"
+          class="up-button"
+          title="Back to top"
+        >
+          <i class="fa-regular fa-circle-up"></i>
+        </button>
+      </div>
     </footer>
     <script src="script.js"></script>
   </body>
