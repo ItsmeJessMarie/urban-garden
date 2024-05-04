@@ -68,7 +68,7 @@ section {
 
 .navbar {
   background: #d9d9d9;
-  padding: 8px 100px;
+  padding: 8px 200px;
 }
 
 .navbar-collapse {
@@ -134,11 +134,11 @@ section {
 }
 
 .profile-link {
-  color: rgb(100, 100, 100);
+  color: white;
 }
 
 .profile-link:hover {
-  color: rgba(16, 125, 17, 0.8);
+  color: rgba(16, 125, 17);
 }
 
 .learn-btn {
@@ -148,19 +148,30 @@ section {
   margin: 0 auto;
   padding: 10px 20px;
   background: #107d11;
-  opacity: 0.8;
+}
+
+.learn-btn a {
   color: white;
 }
 
 .learn-btn:hover {
   transform: scale(1.1);
+}
+
+.learn-btn a:hover {
   color: black;
 }
 
 footer {
-  background: #d9d9d9;
-  padding: 40px 15px 20px;
-  opacity: 0.8;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/435/original/sanjuanprrooftopgarden.jpg?1714752617");
+  background-repeat: none;
+  background-size: cover;
+  background-position: 50%;
+  color: white;
+  text-align: center;
+  background-attachment: fixed;
+  padding: 50px 15px 25px;
 }
 
 #upBtn {
@@ -172,8 +183,7 @@ footer {
   border: none;
   outline: none;
   background-color: #107d11;
-  opacity: 0.8;
-  color: #d9d9d9;
+  color: white;
   cursor: pointer;
   padding: 5px 10px;
   border-radius: 100px;
@@ -231,6 +241,10 @@ footer {
     text-align: left;
   }
 
+  .navbar {
+    padding: 8px 50px;
+  }
+
   .grid-2-columns {
     display: grid;
     grid-gap: 5px;
@@ -276,10 +290,6 @@ footer {
     max-width: 90%;
   }
 
-  .navbar {
-    padding: 8px 25px;
-  }
-
   .nav-link {
     font-size: 14px;
   }
@@ -312,6 +322,10 @@ footer {
   main p,
   footer p {
     font-size: 13px;
+  }
+
+  .navbar {
+    padding: 8px 25px;
   }
 
   .hero {
