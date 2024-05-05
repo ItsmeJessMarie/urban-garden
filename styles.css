@@ -236,6 +236,10 @@ footer {
     font-size: 14px;
   }
 
+  footer {
+    background-attachment: scroll;
+  }
+
   ul,
   .list-item {
     text-align: left;
@@ -264,6 +268,7 @@ footer {
   }
 
   .hero {
+    background-attachment: scroll;
     padding: 150px 0;
   }
 
